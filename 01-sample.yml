@@ -9,4 +9,4 @@
   tasks:
     - name: Print Bye
       ansible.builtin.debug:
-       msg: Bye
+        msg: Bye
