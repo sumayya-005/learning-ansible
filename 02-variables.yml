@@ -33,7 +33,7 @@
       ansible.builtin.debug:
           msg: URL == {{ URL }}
 
-- name: Print Fact
+- name : Print Fact
   hosts: all
   tasks:
     ansible.builtin.debug:
