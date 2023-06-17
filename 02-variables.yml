@@ -4,7 +4,7 @@
     - URL : play.example.com
   tasks :
     - name : Print URL
-      ansible.builtin.debug :
+      ansible.builtin.debug:
         msg : URL = {{ URL }}
 
 - name : Demo on file variables
@@ -13,9 +13,15 @@
     - sample-vars.yml
   tasks :
     - name : Print URL
-      ansible.builtin.debug :
-        msg : URl = {{URL}}
+      ansible.builtin.debug:
+        msg: URl = {{URL}}
 
 - name : Demo on task level variables
   hosts : all
+  tasks :
+    - name : Print URL
+      ansible.builtin.debug:
+        msg: URL = {{ URL }}
+      vars :
+        URL: task.example.com
 
