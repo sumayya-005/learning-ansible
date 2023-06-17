@@ -47,9 +47,9 @@
       register: out
 
 
-#- name: Print out register
-#   ansible.builtin.debug:
-#    msg: "{{out.stdout}}"
+- name: Print out register
+  ansible.builtin.debug:
+    msg: "{{out.stdout}}"
 
 #- name: Declare a fact
 #  ansible.builtin.set_fact:
