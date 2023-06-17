@@ -43,5 +43,5 @@
   hosts : all
   tasks:
     - name: Get uptime
-      ansible.builtin.shell:
+      ansible.builtin.shell: uptime
         register: out
