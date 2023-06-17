@@ -11,3 +11,10 @@
     - name: Print Bye
       ansible.builtin.debug:
         msg: Bye
+
+- name: Demo of Play 3
+  hosts: all
+  tasks:
+    - name : Print Ansible
+      ansible.builtin.debug:
+        msg: Ansible
