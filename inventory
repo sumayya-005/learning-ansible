@@ -1,4 +1,4 @@
-54.147.112.115
+172.31.2.185
 
 #ansible -i inventory  --help
 #

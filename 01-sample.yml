@@ -4,7 +4,7 @@
     - name: Print Hello
       ansible.builtin.debug:
         msg: Hello
-        
+
 - name: Demo of Play2
   hosts: all
   tasks:
