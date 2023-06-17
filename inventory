@@ -1,4 +1,4 @@
-172.31.2.185 URl=host.example.com
+172.31.2.185   URl=host.example.com
 
 #ansible -i inventory  --help
 #
